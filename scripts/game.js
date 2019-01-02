@@ -133,10 +133,10 @@ var game = (function() {
                     ship.moveRight();
                 }
                 if (keysDown.indexOf(38) !== -1) {
-                    ship.moveUp();
+                    ship.moveDown();
                 }
                 if (keysDown.indexOf(40) !== -1) {
-                    ship.moveDown();
+                    ship.moveUp();
                 }
                 if (keysDown.indexOf(32) !== -1) {
                     shotFactory.create(ship);
